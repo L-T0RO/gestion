@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    max-width: auto;
+    margin: 100px auto;
+    background-color: #ffffffaf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 39px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px; /* Añade margen inferior */
+}
+
+button {
+    display: block; /* Cambia a block para ocupar todo el ancho del contenedor */
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Añade margen superior */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos específicos para la página de registro */
+#register-form {
+    text-align: center;
+}
+
+/* Estilos específicos para la página de inicio de sesión */
+#login-form {
+    text-align: center;
+}
+
+.alert {
+    color: green; /* Puedes cambiar el color según tu preferencia */
+    font-weight: bold;
+    margin: 12px 0;
+    text-align: center;
+}
